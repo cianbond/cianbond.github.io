@@ -1,24 +1,23 @@
+/* COMMENTED OUT - Conflicts with Bootstrap
+
 @media(min-width:768px){
-	/* Added media query to allow for change in aspect at smaller widths. This greatly improves responsive web design */
+	
 	
 	.container {
 		display: flex;
 		
-		/* This enables flexbox */
-		
-		align-items: stretch; /* Not useful here but have left in as may be in future labs */
+		align-items: stretch;
 		
 		flex-wrap: wrap; 
 		
-		/* This allows each column to wrap to the next row if the screen isn't wide enough */
-		
 		justify-content: space-between;
 		
-		/* Spreads the 3 columns evenly across the page and puts space in between them */
 	
 }
 	
 }
+
+*/
 
 body {
 	background-color: #D3D3D3;
@@ -26,13 +25,14 @@ body {
 	font-family: Helvetica;
 	text-align: center;
 	}
+	
 
-
+/* COMMENTED OUT - Adds unwanted borders
 .container div{
 	border: 3px solid black;
 	padding:10px;
 }
-/* This gives the base style for any div within .container */
+*/
 
 .profile1 {
 	flex-basis: 30%;
