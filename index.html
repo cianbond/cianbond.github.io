@@ -1,120 +1,40 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 	<head>
 	
-		<title>Cian Bond CV</title>
-		
 		<meta charset="UTF-8">
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<!-- Bootstrap 5 CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-		
-		<link rel="stylesheet" href="styles/style.css">
-		
+		<title>Rock Paper Scissors</title>
 		
 	</head>
 	
 	<body>
+    
+	<h1>Rock Paper Scissors Game</h1>
 	
-		<!-- Responsive Bootstrap Navbar (collapses to hamburger on mobile and tablet) -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<!-- Form for user input -->
+	<form id="rockPaperScissorsForm">
+	
+		<!-- Label for input field -->
+        <label for="userChoice">Choose Rock, Paper or Scissors:</label>
 		
-			<div class="container-fluid">
-			
-				<a class="navbar-brand" href="index.html">Cian Bond</a>
-				
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				
-				<div class="collapse navbar-collapse" id="navbarNav">
-					
-					<ul class="navbar-nav ms-auto">
-						
-						<li class="nav-item">
-							
-							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-						
-						</li>
-						
-						<li class="nav-item">
-							
-							<a class="nav-link" href="skills.html">Skills & Experience</a>
-						
-						</li>
-					
-					</ul>
-				
-				</div>
-			
-			</div>
-		
-		</nav>
-    
-		<!-- Bootstrap container for centered, responsive layout -->
-		<div class="container my-5">
-    
-			<!-- Row for grid layout -->
-			<div class="row">
+		<!-- Text input for user's choice -->
+        <input type="text" id="userChoice">
         
-				<!-- Left Column: Photo (12 cols mobile, 6 cols tablet, 4 cols desktop) -->
-				<div class="col-12 col-md-6 col-lg-4 text-center">
-					<img src="images/photo.jpeg" alt="Profile photo of Cian Bond" class="img-fluid rounded" />
-				</div>
-        
-				<!-- Right Column: Name & Contact (12 cols mobile, 6 cols tablet, 8 cols desktop) -->
-				<div class="col-12 col-md-6 col-lg-8">
-					<h1 class="mb-3">Cian Bond</h1>
-					
-					    <!-- Contact information with Bootstrap lead text and spacing -->
-						<p class="lead mb-2"><strong>Location:</strong> Fanore, Co. Clare</p>
-						<p class="lead mb-2"><strong>Email:</strong> cianbond@gmail.com</p>
-						<p class="lead mb-4"><strong>Phone:</strong> 0834763822</p>
-
-				<!-- Social Media Links (styled as Bootstrap buttons) -->
-				<p>
-					<a href="https://www.instagram.com/" target="_blank" class="btn btn-primary me-2">
-					Instagram
-					</a>
-					<a href="https://www.youtube.com" target="_blank" class="btn btn-danger">
-					YouTube Channel
-					</a>
-				</p>
-			
-			</div>
-		</div>
+		<!-- Submit button to play the game -->
+        <button type="submit">Play</button>
 		
-		<!-- Horizontal divider for visual separation using Bootstrap -->
-		<div class="border-top border-3 border-dark my-4"></div>
-		
-		<!-- Cover Letter Row: Full width (takes 12 columns, mt-5 adds top margin) -->
-		<div class="row mt-5">
-			<div class="col-12">
-				<h2>Cover Letter</h2>
-			
-				<p> I am a hardworking software professional currently undertaking a Higher Diploma in
-				Science in Computing (Artificial Intelligence and Machine Learning). I am highly
-				motivated and keen to broaden my horizons within the Tech world. I am able to adapt to new things
-				efficiently and have the ability to work smoothly on various tasks with a wide range of people.
-				I am eager to bring my set of technical skills and creativity to a like minded team.
-				I am open to any opportunities available and promise to give nothing less than the very best.
-				</p>
-				
-				<!-- Call-to-action button for skills page -->
-				<p class="text-center mt-4">
-				<a href="skills.html" class="btn btn-success btn-lg">View My Skills & Experience</a>
-				</p>
-
-			</div>
-		</div>
-		
-		
-		</div>
-		
-		<!-- Bootstrap 5 JavaScript -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-			
+    </form>
+	
+	<!-- Link to external JavaScript file -->
+	<script src="script.js">
+	
+	</script>
+    
 	</body>
-</html>
+	
+	</html>
